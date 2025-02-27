@@ -46,10 +46,10 @@ const Location = () => {
   ];
 
   return (
-    <div className="flex gap-12">
+    <div className="lg:flex md:flex-row gap-12">
       {/* City List */}
-      <div className="basis-1/2 py-20">
-        <h2 className="uppercase text-5xl mb-5 font-heading">
+      <div className="basis-1/2 py-20 md:p-10 p-7">
+        <h2 className="uppercase text-4xl mb-5 font-heading">
           <span className="text-[#B79868]">NEIGHBORHOOD</span> IN YOUR AREA IS
           WONDERFUL
         </h2>
@@ -89,7 +89,7 @@ const Location = () => {
                 width={200}
                 height={66}
                 alt="Picture of the author"
-                className="max-w-16 mt-3 absolute right-2 bottom-11"
+                className="max-w-16 mt-3  hidden  absolute right-2 bottom-11"
               />
             </div>
           ))}
@@ -97,7 +97,7 @@ const Location = () => {
       </div>
 
       {/* Map Section */}
-      <div className="basis-1/2 absolute h-full w-[48%] left-[52%]">
+      <div className="basis-1/2 lg:absolute h-full lg:w-[48%] left-[52%]">
         <iframe
           className="w-full h-full"
           src={cities.find((city) => city.name === selectedCity)?.mapUrl || ""}

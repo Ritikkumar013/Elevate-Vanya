@@ -15,8 +15,8 @@ const Home = () => {
       >
         <div className=" text-white flex flex-col items-center justify-center h-full gap-5">
           
-          <h1 className="text-8xl font-bold font-heading ">ELEVATE VANYA</h1>
-          <p className="font-serif">
+          <h1 className="lg:text-8xl md:text-6xl text-4xl font-bold font-heading ">ELEVATE VANYA</h1>
+          <p className="font-serif text-center">
             INTRODUCING NEW WAYS TO SHOWCASE PROPERTIES{" "}
           </p>
           
@@ -34,8 +34,8 @@ const Home = () => {
 
       {/* Section 2 */}
 
-      <div className="w-full p-20">
-        <div className="max-w-screen-xl mx-auto flex gap-12">
+      <div className="w-full lg:p-20 md:p-16 p-10">
+        <div className="lg:flex flex-row max-w-screen-xl mx-auto  lg:gap-12">
           <div className="basis-1/2">
             <Image
               src="/home-2nd-sec.jpg"
@@ -44,8 +44,8 @@ const Home = () => {
               alt="Picture of the author"
             />
           </div>
-          <div className="basis-1/2">
-            <h2 className="uppercase text-5xl mb-5 font-heading">
+          <div className="basis-1/2 lg:mt-0 md:mt-10 mt-5 ">
+            <h2 className="uppercase  text-4xl mb-5 font-heading">
               <span className="text-[#B79868]">NEIGHBORHOOD</span> IN YOUR AREA IS WONDERFUL
             </h2>
             <p className="uppercase mb-4 text-lg text-[#B79868]">
@@ -75,7 +75,7 @@ const Home = () => {
 
       {/* Section 3 */}
 
-      <div className="w-full p-20" style={{ backgroundImage: "url('/bg-grain-black.jpg')" }}>
+      <div className="w-full lg:p-20 md:p-16 p-10" style={{ backgroundImage: "url('/bg-grain-black.jpg')" }}>
         <div className="max-w-screen-xl mx-auto">
           <IconCards />
         </div>
@@ -91,9 +91,9 @@ const Home = () => {
       </div>
 
       {/* Section 4 */}
-      <div className="w-full p-20">
+      <div className="w-full lg:p-20 md:p-14 p-9">
         <div className="max-w-screen-xl mx-auto">
-          <h1 className="text-5xl mb-5 text-center font-heading">SCHEDULE A VISIT</h1>
+          <h1 className="text-4xl mb-5 text-center font-heading">SCHEDULE A VISIT</h1>
           <p className="text-center mb-12 max-w-screen-md mx-auto text-sm">
             Lorem Ipsum has been the industry&apos;s standard dummy text ever
             since the 1500s, when an unknown printer took a galley of type and
@@ -108,9 +108,9 @@ const Home = () => {
       </div>
 
       {/* Section 5 */}
-      <div className="w-full p-20" style={{ backgroundImage: "url('/bg-grain-gold2.jpg')" }}>
+      <div className="w-full lg:p-20 md:p-14 p-9" style={{ backgroundImage: "url('/bg-grain-gold2.jpg')" }}>
         <div className="max-w-screen-md text-center mx-auto text-base">
-          <h1 className="text-5xl mb-5 font-heading">SCHEDULE A VISIT</h1>
+          <h1 className="text-4xl mb-5 font-heading">SCHEDULE A VISIT</h1>
           <p className="mb-5">
             Lorem Ipsum has been the industry&apos;s standard dummy text ever
             since the 1500s, when an unknown printer took a galley of type and

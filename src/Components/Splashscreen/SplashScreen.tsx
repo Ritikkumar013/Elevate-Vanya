@@ -43,7 +43,7 @@ const SplashScreen: React.FC = () => {
             alt="Logo"
             width={1000}
             height={240}
-            className="mb-4 animate-fade-in-left max-w-[500px]"/>
+            className="mb-4 animate-fade-in-left lg:max-w-[500px] md:max-w-[400px]  "/>
           </div>
         </div>
       )}

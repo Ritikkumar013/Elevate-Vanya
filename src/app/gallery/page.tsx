@@ -13,8 +13,8 @@ const page = () => {
         </div>
       </div> 
       <div className="text-center py-10">
-        <h1 className="text-5xl my-5 font-light font-heading">GALLERY</h1>
-        <p className="text-sm font-extralight">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry&apos;s standard dummy text</p>
+        <h1 className="lg:text-5xl md:text-4xl text-4xl my-5 font-light font-heading">GALLERY</h1>
+        <p className="mx-5 text-sm font-extralight">Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/> Lorem Ipsum has been the industry&apos;s standard dummy text</p>
       </div>
       <Masonry />
       

@@ -38,17 +38,17 @@ const Masonry: React.FC = () => {
   };
 
   return (
-    <div className="mx-28 space-y-6 mb-20">
+    <div className="lg:mx-28 space-y-6 mb-20">
       {/* Tabs for Categories */}
-      <div className="flex space-x-4 justify-center">
+      <div className="flex lg:flex-row md:flex-row flex-col mx-4 lg:space-x-4 md:space-x-4 justify-center">
         {Object.keys(categories).map((category) => (
           <button
             key={category}
             onClick={() => setActiveCategory(category as keyof typeof categories)}
-            className={`px-6 py-2 ${
+            className={`px-5 mt-2 rounded-lg py-2 ${
               activeCategory === category
-                ? "bg-[#B79868] text-white"
-                : "bg-[#2d2d2d] text-white"
+                ? "bg-blue-800 text-white"
+                : "bg-[#1c1b1b] text-white"
             }`}
           >
             {category}
@@ -58,8 +58,8 @@ const Masonry: React.FC = () => {
 
       {/* Masonry Layout */}
       <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 p-4">
-        <div className="my-5 p-5">
-          <h1 className="text-4xl font-heading">{activeCategory}</h1>
+        <div className="my-5 lg:p-5 md:p-4 p-1">
+          <h1 className="text-3xl font-heading">{activeCategory}</h1>
           <p className="text-sm my-2">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry.

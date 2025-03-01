@@ -82,7 +82,7 @@ const Location = () => {
                 />
               </svg>
 
-              <h1 className="my-1 uppercase">{city.name}</h1>
+              <h1 className="my-1 lg:text-lg md:text-base text-sm uppercase">{city.name}</h1>
               <p className="text-xs ">{city.projects} Projects Available</p>
               <Image
                 src="/arrow-btn-black.png"

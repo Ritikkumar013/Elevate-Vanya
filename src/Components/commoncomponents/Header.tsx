@@ -201,10 +201,10 @@ const Header = () => {
           <X className="w-8 h-8" />
         </button>
         
-        <nav className="mt-16 flex flex-col gap-4">
+        <nav className="mt-20 flex flex-col gap-4">
           <Link href="/" className="py-2" onClick={() => setIsMenuOpen(false)}>Home</Link>
           <MobileDropdownMenu title="About the Project">
-            <DropdownItem href="/location">Location Advantages</DropdownItem>
+            <DropdownItem  href="/location">Location Advantages</DropdownItem>
             <DropdownItem href="/aPlan">Unit Configurations</DropdownItem>
             <DropdownItem href="/specifications">Specifications</DropdownItem>
           </MobileDropdownMenu>

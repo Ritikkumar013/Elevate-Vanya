@@ -88,7 +88,7 @@ import Image from "next/image";
 
 const SwiperCarousel: React.FC = () => {
   return (
-    <div className="w-full px-4 sm:px-10 md:px-20 mx-auto">
+    <div className="w-full mx-auto">
       <Swiper
         modules={[Autoplay, Pagination, Navigation]}
         spaceBetween={20}

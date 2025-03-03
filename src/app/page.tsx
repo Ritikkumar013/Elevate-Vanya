@@ -10,7 +10,7 @@ const Home = () => {
     <>
       {/* Section 1 */}
       <div
-        className=" w-full h-screen bg-cover bg-center"
+        className=" w-full lg:h-screen h-[70vh] bg-cover bg-center"
         style={{ backgroundImage: "url('/gallery.png')" }}
       >
         <div className=" text-white flex flex-col items-center justify-center h-full gap-5">
@@ -20,13 +20,13 @@ const Home = () => {
             INTRODUCING NEW WAYS TO SHOWCASE PROPERTIES{" "}
           </p>
           
-          <div className="absolute bottom-6">
+          <div className="lg:bottom-6 absolute bottom-[210px]">
           <Image
               src="/arrow-btn-vertical.png"
               width={70}
               height={200}
               alt="Picture of the author"
-              className="w-10 "
+              className="w-10"
             />
             </div>
         </div>
@@ -34,7 +34,7 @@ const Home = () => {
 
       {/* Section 2 */}
 
-      <div className="w-full lg:p-20 md:p-16 p-10">
+      <div className="w-full lg:p-20 md:p-10 p-7 my-5">
         <div className="lg:flex flex-row max-w-screen-xl mx-auto  lg:gap-12">
           <div className="basis-1/2">
             <Image
@@ -75,7 +75,7 @@ const Home = () => {
 
       {/* Section 3 */}
 
-      <div className="w-full lg:p-20 md:p-16 p-10" style={{ backgroundImage: "url('/bg-grain-black.jpg')" }}>
+      <div className="w-full lg:p-20 md:p-10 p-7" style={{ backgroundImage: "url('/bg-grain-black.jpg')" }}>
         <div className="max-w-screen-xl mx-auto">
           <IconCards />
         </div>
@@ -91,7 +91,7 @@ const Home = () => {
       </div>
 
       {/* Section 4 */}
-      <div className="w-full lg:p-20 md:p-14 p-9">
+      <div className="w-full lg:p-20 md:p-10 p-7 my-5">
         <div className="max-w-screen-xl mx-auto">
           <h1 className="text-4xl mb-5 text-center font-heading">SCHEDULE A VISIT</h1>
           <p className="text-center mb-12 max-w-screen-md mx-auto text-sm">
@@ -108,8 +108,8 @@ const Home = () => {
       </div>
 
       {/* Section 5 */}
-      <div className="w-full lg:p-20 md:p-14 p-9" style={{ backgroundImage: "url('/bg-grain-gold2.jpg')" }}>
-        <div className="max-w-screen-md text-center mx-auto text-base">
+      <div className="w-full lg:p-20 md:p-10 p-7" style={{ backgroundImage: "url('/bg-grain-gold2.jpg')" }}>
+        <div className="max-w-screen-xl py-5 text-center mx-auto text-base">
           <h1 className="text-4xl mb-5 font-heading">SCHEDULE A VISIT</h1>
           <p className="mb-5">
             Lorem Ipsum has been the industry&apos;s standard dummy text ever
